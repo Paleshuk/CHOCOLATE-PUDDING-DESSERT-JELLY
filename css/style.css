@@ -107,6 +107,10 @@ ol li {
    box-sizing: border-box; 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -147,8 +151,7 @@ h2 {
     margin-left: 30px;
     padding-bottom: 3px;
     border-bottom: 4px solid white transparent;
-    transition: border-bottom 0.1s, color 0.1s;
-    
+    transition: border-bottom 0.1s, color 0.1s;  
 } 
 
 .nav li a:hover {
@@ -450,7 +453,7 @@ footer p {
     }
 
     .download-info {
-        width: 80%;
+        width: 60%;
     }
 
 }
